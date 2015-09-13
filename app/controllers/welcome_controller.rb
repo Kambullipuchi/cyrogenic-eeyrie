@@ -6,6 +6,6 @@ class WelcomeController < ApplicationController
 		@details = heroku.app.info('cyrogenic-eeyrie')
 		@list = heroku.app.list()
 		@dynos = heroku.dyno.list('cyrogenic-eeyrie')
-		# render :json => @dynos
+		render :json => @dynos
 	end
 end

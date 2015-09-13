@@ -1,0 +1,2 @@
+class DynosController < ApplicationController
+end
