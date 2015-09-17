@@ -1,13 +1,10 @@
 Rails.application.routes.draw do
 	root 'welcome#index'
 
-  constraints subdomain: 'api' do 
-    namespace :api do
-      resources :zombies
-    end
-  end
+  # constraints subdomain: 'api' do   
+  # end
 
-  namespace :operation do 
+  namespace :api do
     resources :apps
     resources :dynos
   end
