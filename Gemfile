@@ -61,6 +61,7 @@ group :development, :test do
 	gem 'rails-footnotes', '>= 3.7.5.rc4'
 	gem 'rails_best_practices'
 	gem 'reek'
+	
 	gem 'request-log-analyzer'
 	gem 'smusher'
 	gem 'zeus' # don't add this in your gemfile.
