@@ -41,6 +41,29 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+    gem "better_errors"
+	gem "binding_of_caller"
+	gem 'annotate'
+	gem 'bullet'
+	# gem 'debugger'
+	gem 'flay'
+	gem 'hirb'
+	# gem 'localtunnel'
+	gem 'lol_dba'
+	gem 'mailcatcher'
+	gem 'meta_request','0.2.1'
+	gem 'pry'
+	gem 'pry-doc'
+	gem 'quiet_assets'
+	gem 'rack-mini-profiler'
+	gem 'railroady'
+	gem 'rails-footnotes', '>= 3.7.5.rc4'
+	gem 'rails_best_practices'
+	gem 'reek'
+	gem 'request-log-analyzer'
+	gem 'smusher'
+	gem 'zeus' # don't add this in your gemfile.
 end
 
 gem 'devise'
